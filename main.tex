@@ -1,0 +1,23 @@
+\documentclass{gobook}
+%\usepackage{draftwatermark}
+%\SetWatermarkText{Draft}
+%\SetWatermarkScale{2}
+
+\makeindex
+
+\begin{document}
+\def\hbar{\mathit{^^^^0127}} %%% redefinition of hbar
+
+\title{GOBOOK\\A \LaTeX{} class file for nice books}
+\vspace{2cm}
+\author{Giovanni Organtini}
+\titlepage
+\maketitle
+
+\tableofcontents
+\include{preface}
+\include{introduction}
+
+\backmatter
+\printindex
+\end{document}
